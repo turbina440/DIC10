@@ -1,0 +1,28 @@
+*{margin: 0}
+body{width: 100%}
+header{background: blueviolet;
+text-align: center;
+}
+
+
+li{padding: 10px 30px;
+display: inline-block;}
+
+ul{text-decoration: none;}
+
+main{background: snow;}
+
+footer{background: lightcoral;
+padding: 10px}
+
+
+MAIN {text-align: center;}
+
+@media only screen and (max-width:300px) {
+	iframe{width: 80%;
+		height: 300px}
+	img{width: 	80%}
+	p{font-size: 10px}	
+	li{display: 	block;}
+	
+}

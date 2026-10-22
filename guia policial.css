@@ -1,0 +1,36 @@
+*{
+	font-family: /*cursive*/;
+
+}
+body{margin: 0px;
+padding: 0px}
+
+header{background: gray;
+margin: 0px;
+padding: 0px;}
+
+body{
+	background: snow;
+	min-width: 300px;
+
+}
+/*.container{
+	margin-left: 10px;
+	height: 100vh;
+}*/
+
+footer{background: gray;
+margin: 0px;
+padding: 0px;}
+
+.uno{text-align: left;}
+
+.ftr li a{color: white;}
+.ftr li{color: white;}
+main{margin: 5px;
+padding: 5px}
+.logo{height: 50vh}
+img{height: 	80%;
+align-content: 	center	;}
+
+p{color: 	white	;}

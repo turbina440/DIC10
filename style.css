@@ -1,0 +1,27 @@
+.organigrama {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.direccion, .departamento {
+  flex: 1 1 30%; /* Ajustar según sea necesario */
+  margin: 10px;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+}
+
+.departamento ul {
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+}
