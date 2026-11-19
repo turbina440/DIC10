@@ -22,7 +22,6 @@ footer{background: lightcoral;
 padding: 10px}
 
 img{max-width: 300px;
-;
 	
 padding: 10px}
 .jefes{padding:0}
@@ -51,13 +50,13 @@ body{
 }
 
 
-@media screen and (min-width:300px) AND (max-width:500px){
+@media screen and (min-width:300px) and (max-width:500px){
 
 	li{display: 	block;}
 	img{width: 80%;		}
 }
 
-@media screen and (min-width:500px) AND (max-width:700px){
+@media screen and (min-width:500px) and (max-width:700px){
 	
 .autoridades_policiales{
 display:grid;
