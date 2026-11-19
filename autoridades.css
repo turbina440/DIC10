@@ -6,6 +6,7 @@ width: 100%}
 body{
 	display:grid;
 	width: 100%}
+
 a{text-decoration: none;
 color: white;}
 
@@ -16,51 +17,49 @@ ul{text-decoration: none;}
 h1{text-align: center;}
 
 
-.civiles{
-background-color:darkred ;
-	display:grid;
-	grid-template-rows: REPEAT(2,350px );
-	grid-template-columns:repeat(3,350px) ;
-	border: 3px solid #000;
-	grid-gap: 10px;
-	place-items: CENTER;
-	color: white;
-	
-}	.bomberos{
-background-color:midnightblue ;
-	display:grid;
-	
-	grid-template-columns:repeat(3,350px) ;
-	border: 3px solid #000;
-	grid-gap: 10px;
-	place-items: CENTER;
-	color: white;
-	
-}	
-
-.s1{width: 200px;
-	
-	background: #300;
-
-}
-.s2{width: 200px;
-background: #300;/*
-	position relative;
-	top: -290px;
-	right: -200px;*/
-	
-}
-
 footer{background: lightcoral;
 padding: 10px}
 
-img{height: 200px;
-	width: 170px;
+img{max-width: 300px;
+;
+	
 padding: 10px}
 
+/*.autoridades_policiales{
+display:grid;
+	grid-template-rows: repeat(3,350px);
+	grid-template-columns:repeat(3,380px);
+	border: 3px solid #000;
+	grid-gap: 10px;
+	background-color: #300;
+	color:white;	
+place-items: CENTER
+}
+main{width: 100%}*/
+div{text-align: center;}
+
+@media only screen and (max-width:300px){
+	img{width: 60%;		}
+	li{display: 	block;
+		text-align: 	center;}
+body{
+
+	display: block;}
+
+}
+
+
+@media screen and (min-width:300px) AND (max-width:500px){
+
+	li{display: 	block;}
+	img{width: 80%;		}
+}
+
+@media screen and (min-width:500px) AND (max-width:700px){
+	
 .autoridades_policiales{
 display:grid;
-	grid-template-rows: repeat(2,350px);
+	grid-template-rows: repeat(3,350px);
 	grid-template-columns:repeat(3,380px);
 	border: 3px solid #000;
 	grid-gap: 10px;
@@ -69,32 +68,19 @@ display:grid;
 place-items: CENTER
 }
 main{width: 100%}
-button{border-radius: 10%;
-	height: 30PX;
-	text-align: center;}
-.button{margin: 10PX;	
-	text-align: center;	
-
-align-items: center;
-height: 50px
 }
-button a{color: black;}
 
-@media only screen and (max-width:300px){
-	img{width: 50%;		}
-	li{display: 	block;
-		text-align: 	center;}
-.autoridades_policiales{
-
-	grid-template-rows: 2fr;
-	grid-template-columns:1fr;}
-
-	.civiles{
-
-
-	grid-template-rows: 2fr;
-	grid-template-columns:1fr ;}
-	.bomberos{
+@media screen and (min-width:700px) {
 	
-	grid-template-columns:1fr;}
+.autoridades_policiales{
+display:grid;
+	grid-template-rows: repeat(3,350px);
+	grid-template-columns:repeat(3,380px);
+	border: 3px solid #000;
+	grid-gap: 10px;
+	background-color: #300;
+	color:white;	
+place-items: CENTER
+}
+main{width: 100%}
 }
