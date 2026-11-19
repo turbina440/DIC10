@@ -1,85 +1,62 @@
-*{margin: 0}
-header{background: blueviolet;
+*{
+	font-family: /*cursive*/;
+
+}
+body{margin: 0px;
+padding: 0px}
+
+header {background: blueviolet;
+
 text-align: center;
-width: 100%}
+padding: 10px 30px;}
+
+ul {
+text-decoration: none;}
 
 body{
-	display:grid;
-	width: 100%}
+	background: snow;
+	min-width: 300px;
+
+}
+/*.container{
+	margin-left: 10px;
+	height: 100vh;
+}*/
+
+footer{background: blueviolet;
+margin: 0px;
+padding: 5px;}
+
+.uno{text-align: left;}
+
+.ftr li a{color: white;
+text-decoration: none}
+
+.ftr li{color: white;}
+main{margin: 10px;
+padding: 5px}
+
+.logo{height: 50vh}
+img{height: 	80%;
+align-content: 	center	;}
+
+p{color: 	white	;}
+
+li{text-decoration: none;
+}
 
 a{text-decoration: none;
-color: white;}
-
-li{padding: 10px 30px;
-display: inline-block;}
-
-ul{text-decoration: none;}
-h1{text-align: center;}
-
-
-footer{background: lightcoral;
-padding: 10px}
-
-img{max-width: 300px;
-
-padding: 10px}
-
-/*.autoridades_policiales{
-display:grid;
-	grid-template-rows: repeat(3,350px);
-	grid-template-columns:repeat(3,380px);
-	border: 3px solid #000;
-	grid-gap: 10px;
-	background-color: #300;
-	color:white;	
-place-items: CENTER
-}
-main{width: 100%}*/
-div{text-align: center;}
-
-@media only screen and (max-width:300px){
-	img{width: 60%;		}
-	li{display: 	block;
-		text-align: 	center;}
-body{
-
-	display: block;}
-
 }
 
+.container{padding: 5px}
+.ley p{color: black;}
+.logo{text-align: center;}
+/*RESPONSIVE*/
 
-@media screen and (min-width:300px) and (max-width:500px){
-
-	li{display: 	block;}
-	img{width: 80%;		}
+@media screen and /*(min-width:300px)*/ AND (max-width:500px){
+	iframe{width: 30%}
 }
-
-@media screen and (min-width:500px) and (max-width:700px){
-	
-.autoridades_policiales{
-display:grid;
-	grid-template-rows: repeat(3,350px);
-	grid-template-columns:repeat(3,380px);
-	border: 3px solid #000;
-	grid-gap: 10px;
-	background-color: #300;
-	color:white;	
-place-items: CENTER
-}
-main{width: 100%}
+header li{padding: 10px 30px;
 }
 
-@media screen and (min-width:700px) {
-	
-.autoridades_policiales{
-display:grid;
-	grid-template-rows: repeat(3,350px);
-	grid-template-columns:repeat(3,380px);
-	border: 3px solid #000;
-	grid-gap: 10px;
-	background-color: #300;
-	color:white;	
-place-items: CENTER
-}
-main{width: 100%}
-}
+PARAM{color: black;}
