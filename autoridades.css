@@ -1,4 +1,5 @@
-*{margin: 0}
+*{margin: 0;
+ }
 header{background: blueviolet;
 text-align: center;
 width: 100%}
@@ -24,6 +25,7 @@ img{max-width: 300px;
 ;
 	
 padding: 10px}
+.jefes{padding:0}
 
 /*.autoridades_policiales{
 display:grid;
